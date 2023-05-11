@@ -1,0 +1,14 @@
+{
+    "PROJECT_LOOKUP": {
+      "Order": 1,
+      "Prompts": [
+        {
+          "Type": "eac:projects|select",
+          "Message": "Choose the project to deploy the No Code Website to?",
+          "Arguments": {
+            "CreateText": "Create a project"
+          }
+        }
+      ]
+    }
+}

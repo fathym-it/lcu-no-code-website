@@ -1,0 +1,33 @@
+{
+  "Applications": {
+    "{{$1}}-no-code-website": {
+      "Details": {
+        "Description": "The public site being used as the home page.",
+        "Name": "Public Site"
+      },
+      "LookupConfig": {
+        "PathRegex": "/.*"
+      },
+      "Package": {
+        "Details": {
+          "ZipFile": "https://www.fathym.com/templates/grapes/homepage.zip"
+        },
+        "Type": "Zip"
+      },
+      "Processor": {
+        "Details": {
+          "BaseHref": "/",
+          "DefaultFile": "index.html"
+        },
+        "Type": "DFSProcessor"
+      }
+    }
+  },
+  "Projects": {
+    "{{PROJECT_LOOKUP}}": {
+      "ApplicationLookups": [
+        "{{$1}}-no-code-website"
+      ]
+    }
+  }
+}
