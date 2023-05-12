@@ -12,7 +12,7 @@
         "Details": {
           "ZipFile": "https://www.fathym.com/templates/grapes/homepage.zip"
         },
-        "Type": "Zip"
+        "Type": "ZipLowCodeUnit"
       },
       "Processor": {
         "Details": {
