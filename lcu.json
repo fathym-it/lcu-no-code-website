@@ -3,7 +3,13 @@
     "Name": "No-Code Website",
     "Description": "A template to start customizing a no-code site with open-source website builder GrapesJS.",
     "Image": "https://www.fathym.com/img/nocode.png",
-    "PreviewImage": "https://www.fathym.com/img/grapesjslogo.jpg"
+    "PreviewImage": "https://www.fathym.com/img/grapesjslogo.jpg",
+    "Intents":[
+      "No Code",
+      "Getting started",
+      "Website",
+      "Application"
+    ]
   },
   "Configurations": {
     "Full": {
