@@ -1,7 +1,7 @@
 {
   "Package": {
-    "Name": "No-Code Website",
-    "Description": "A template to start customizing a no-code site with open-source website builder GrapesJS.",
+    "Name": "No-Code Site Builder",
+    "Description": "An instance of open-source no-code website builder GrapesJS for building custom websites.",
     "Button": "Launch",
     "Image": "https://www.fathym.com/assets/images/logo.png",
     "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
