@@ -25,6 +25,10 @@
   },
   "Projects": {
     "{{PROJECT_LOOKUP}}": {
+      "Details": {
+        "Name": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Name}}{{Details.Name}}{{/if}}{{else}}No-Code Site Builder{{/if}}",
+        "Description": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Description}}{{Details.Description}}{{/if}}{{else}}An instance of open-source no-code website builder GrapesJS for building custom websites.{{/if}}"
+      },
       "ApplicationLookups": [
         "{{$1}}-no-code-website"
       ]

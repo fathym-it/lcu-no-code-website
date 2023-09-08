@@ -1,7 +1,7 @@
 {
   "Package": {
-    "Name": "No-Code Website",
-    "Description": "A template to start customizing a no-code site with open-source website builder GrapesJS.",
+    "Name": "No-Code Site Builder",
+    "Description": "An instance of open-source no-code website builder GrapesJS for building custom websites.",
     "Image": "https://www.fathym.com/img/nocode.png",
     "PreviewImage": "https://www.fathym.com/img/grapesjslogo.jpg",
     "Intents":[
@@ -13,11 +13,11 @@
   },
   "Configurations": {
     "Full": {
-      "Name": "No-Code Website",
-      "Description": "A template to start customizing a no-code site with open-source website builder GrapesJS.",
+      "Name": "No-Code Site Builder",
+      "Description": "An instance of open-source no-code website builder GrapesJS for building custom websites.",
       "Phases": [
         {
-          "Name": "Setup No Code Website",
+          "Name": "Setting Up No-Code Site Builder",
           "Order": 1,
           "Asset": "no-code"
         }
